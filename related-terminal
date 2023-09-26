@@ -1,0 +1,56 @@
+PS C:\Users\hp\Desktop\NODEJS> npm run test
+Debugger attached.
+
+> bb@1.0.0 test
+> echo "Error: no test specified" && exit 1
+
+"Error: no test specified" 
+PS C:\Users\hp\Desktop\NODEJS> npm start
+Debugger attached.
+
+> bb@1.0.0 start
+> node arrow.js
+
+Debugger attached.
+6
+Waiting for the debugger to disconnect...
+PS C:\Users\hp\Desktop\NODEJS> npm run start-server
+Debugger attached.
+
+> bb@1.0.0 start-server
+> node arrow.js
+
+Debugger attached.
+6
+Waiting for the debugger to disconnect...
+PS C:\Users\hp\Desktop\NODEJS> npm start-server
+Debugger attached.
+Unknown command: "start-server"
+
+Did you mean this?
+    npm run start-server # run the "start-server" package script
+
+To see a list of supported npm commands, run:
+  npm help
+Waiting for the debugger to disconnect...
+Debugger attached.
+
+> bb@1.0.0 start-server
+> node arrow.js
+
+Debugger attached.
+6
+Waiting for the debugger to disconnect...
+Waiting for the debugger to disconnect...
+PS C:\Users\hp\Desktop\NODEJS> ^C
+PS C:\Users\hp\Desktop\NODEJS> npm install nodemon --save-dev
+Debugger attached.
+
+added 33 packages, and audited 34 packages in 17s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Waiting for the debugger to disconnect...
+PS C:\Users\hp\Desktop\NODEJS>
